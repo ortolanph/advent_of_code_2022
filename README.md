@@ -24,13 +24,13 @@ Where:
 Each day has its own class, but they have all the same signature. Eg:
 
 ```python
-calories = Calories(True)
+calories = Calories(is_example=True)
 ```
 
 To run the examples (in order to test it). Or:
 
 ```python
-calories = Calories(False)
+calories = Calories(is_example=False)
 ```
 
 To run the real thing.

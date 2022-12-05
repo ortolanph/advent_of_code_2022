@@ -1,7 +1,7 @@
-from solutions.day_03.rucksacks import Rucksack
+from solutions.day_04.dwarf_mess_cleaner import DwarfMessCleaner
 
 if __name__ == '__main__':
-    rucksacks = Rucksack(False)
+    mess_cleaner = DwarfMessCleaner(is_example=False)
 
-    print(rucksacks.sum_of_priorities())
-    print(rucksacks.sum_of_groups())
+    print(mess_cleaner.fully_contains())
+    print(mess_cleaner.overlaps())
