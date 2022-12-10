@@ -1,7 +1,8 @@
-from solutions.day_05.crazy_crate import CrazyCrane
+from solutions.day_06.tuning_trouble import TuningTrouble
 
 if __name__ == '__main__':
-    crazy_crane = CrazyCrane(is_example=True)
+    tuning_trouble = TuningTrouble(is_example=False)
 
-    print(crazy_crane.crate_mover_9000())
-    print(crazy_crane.crate_mover_9001())
+    tuning_trouble.start_of_packet(packet_size=4)
+    print("-----------------------------------------------------------")
+    tuning_trouble.start_of_packet(packet_size=14)
