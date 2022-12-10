@@ -1,7 +1,7 @@
-from solutions.day_04.dwarf_mess_cleaner import DwarfMessCleaner
+from solutions.day_05.crazy_crate import CrazyCrane
 
 if __name__ == '__main__':
-    mess_cleaner = DwarfMessCleaner(is_example=False)
+    crazy_crane = CrazyCrane(is_example=True)
 
-    print(mess_cleaner.fully_contains())
-    print(mess_cleaner.overlaps())
+    print(crazy_crane.crate_mover_9000())
+    print(crazy_crane.crate_mover_9001())
